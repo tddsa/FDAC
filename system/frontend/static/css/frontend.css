@@ -1,0 +1,275 @@
+/*App.vue*/
+body{
+  font-family: Arial,Helvetica,sans-serif;
+}
+.entire-sys{
+  margin-top: -5px;
+}
+.body-sys{
+ margin-top: -2px;
+}
+/*filterView.vue*/
+#data-filter-box{
+    width: 584px;
+    height: 490px;
+    background: 0;
+    border: 1px solid #aaaaaa;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    position: relative;
+    margin: 0px 0px 5px 0px;
+}
+#semantic-view-box{
+  width: 584px;
+  height: 495px;
+  background: 0;
+  border: 1px solid #aaaaaa;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  position: relative;
+}
+#layout-view-box{
+  width: 100%;
+  height: 992px;  /* 892px*/    
+  background: 0;
+  border: 1px solid #aaaaaa;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  position: relative;
+}
+.app-setting{
+    display: flex;
+    /*margin-top: 0px;*/
+    /*margin-bottom: 7px;*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    /*border: 1px solid #aaa;*/
+    /*background: #ccc url(../img/toolBoxPg.png) 50% 50% repeat-x;*/
+    /*color: #222;*/
+    /*font-weight: bold;*/
+    /*height: 40px;*/
+    width: 80%;
+}
+
+/*selectDataset.vue*/
+#select-dataset .el-select{
+  width: 100px;
+}
+.el-select-dropdown__item{
+  font-size: 14px;
+}
+#select-dataset{
+  margin: 0px 2px 0px 2px;
+}
+
+.widget-box{
+    border: 1px solid #d3d3d3;
+    background: rgb(230, 230, 230) url(../img/widgetBoxPg.png) 50% 50% repeat-x;
+    font-weight: normal;
+    color: #555;
+}
+/*滚动条样式设置*/
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #d3d3d3;
+}
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+
+/* searchBox */
+#attr-search-box .el-input-group__prepend{
+  width: 40px;
+}
+.select-field .el-input__inner{
+  padding: 0px 0px 0px 5px;
+}
+.input-box-keywords > div > .el-input__inner{
+  width: 140px;
+}
+.input-box-keywords > .el-input-group__prepend{
+  width: 20px;
+}
+.submit-search-keywords{
+  /*padding: 0px 0px 0px 0px;*/
+}
+#attr-search-box .el-input-group__append{
+  padding: 0px 10px 0px 10px;
+}
+#attr-search-box #search-result-box .el-table{
+  max-height: 240px;
+   
+}
+#attr-search-box #search-result-box{
+  max-height: 200px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.searchResultContextMenu{
+  max-width: 250px;
+}
+.searchResultContextMenu .context-menu-item{
+  padding: 0px 0px 0px 2px;
+  margin: 0px 2px 4px 2px;
+}
+/*right-click*/
+
+.context-menu-list li{
+  font-size: 14px;
+}
+.dyegonetContextMenu .context-menu-item{
+  padding: 0px 0px 4px 2px;
+}
+#is-show-lines{
+  width: 20px;
+  height: 20px;
+  border: 1px solid #aaaaaa;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+/*App.vue*/
+#system-interface-box .splitpanes.default-theme .splitpanes__pane {
+    background-color: #ffffff;
+}
+#system-interface-box .default-theme.splitpanes--vertical>.splitpanes__splitter, .default-theme .splitpanes--vertical>.splitpanes__splitter {
+    width: 4px;
+    border-left: 0px solid #eee;
+    margin-left: -1px;
+}
+#system-interface-box .default-theme.splitpanes--vertical>.splitpanes__splitter:after, .default-theme .splitpanes--vertical>.splitpanes__splitter:after {
+    margin-left: 0px;
+}
+#system-interface-box .splitpanes.default-theme .splitpanes__splitter:after, .splitpanes.default-theme .splitpanes__splitter:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    background-color: rgba(0,0,0,.15);
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+}
+#select-dataset .el-input__inner{
+  font-size: 14px;
+  border-radius: 2px;
+}
+#navg-div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  margin-bottom: 7px;
+  border: 1px solid #aaa;
+  background: #ccc url(../img/toolBoxPg.png) 50% 50% repeat-x;
+  color: #222;
+  font-weight: bold;
+  height: 40px;
+}
+#us-help{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 2px 0px 0px;
+}
+#search-result-box .el-table__header-wrapper{
+  font-size: 14px;
+}
+#search-result-box .el-table__body-wrapper tbody{
+  font-size: 14px;
+  font-weight: 500;
+}
+#search-result-box .el-table--medium td, #search-result-box .el-table--medium th {
+    padding: 4px 0;
+}
+.el-select-dropdown__item {
+  font-size: 14px;
+  padding: 0px 2px 2px 2px;
+  height: 20px;
+  line-height: 20px;
+}
+.md-name {
+    font-size: 14px;
+    margin: 0px 2px 0px 0px;
+}
+.el-autocomplete-suggestion li{  
+  line-height: 20px;  
+  font-size: 14px;
+  padding: 0 5px;  
+}
+#attr-search-div .el-input--suffix .el-input__inner{
+ padding-right: 10px;
+}
+#attr-search-div .el-input__inner{
+ height:30px;
+ padding: 0px 2px 0px 2px;
+ width: 150px;
+ border-radius: 0px;
+}
+#attr-search-div .el-input__icon{
+ line-height: 0px; 
+}
+#attr-search-box{
+  margin: 2px 0px 0px 2px;
+}
+#select-attr-div{
+  border: 1px solid #aaaaaa;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  margin: 2px 2px 0px 2px;
+  padding: 2px 2px 2px 2px;
+}
+#semantic-community{
+  min-height: 100px;
+  width: 578px;
+  border: 1px solid #aaaaaa;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  margin: 2px 2px 0px 2px;
+}
+#semantic-community .el-tag{
+  margin: 5px 0px 0px 5px;
+}
+#ok-div{
+  width: 578px;
+  height: 40px;
+  display:table-cell;
+  vertical-align:middle;
+  text-align: center;
+}
+#ok-SC-div{
+  width: 100px;
+  height: 20px;
+  border: 1px solid #aaaaaa;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  display:inline-block;
+  background-color: #f0f0f0;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  vertical-align:middle;
+  text-align: center;
+  cursor: pointer;
+}
